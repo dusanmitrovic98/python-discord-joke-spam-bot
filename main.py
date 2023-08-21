@@ -40,3 +40,4 @@ async def on_ready():
             await channel.send(joke)
         elif 'setup' in joke_data and 'delivery' in joke_data:
             setup = joke_data['setup']
+            delivery = joke_data['delivery']
