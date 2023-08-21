@@ -23,3 +23,4 @@ async def on_ready():
 
     server = client.get_guild(SERVER_ID)
     if server is None:
+        print(f"Error: Couldn't find server with ID {SERVER_ID}")
