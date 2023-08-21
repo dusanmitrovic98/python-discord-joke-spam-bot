@@ -31,3 +31,4 @@ async def on_ready():
         print(f"Error: Couldn't find channel with ID {CHANNEL_ID} in server {server.name}")
         return
 
+    while True:
