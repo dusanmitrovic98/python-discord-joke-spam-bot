@@ -11,3 +11,4 @@ CHANNEL_ID = 114278
 
 jokes_api_url = 'https://v2.jokeapi.dev/joke/Any'  # Change 'Any' to a specific category if desired
 
+intents = discord.Intents.default()
