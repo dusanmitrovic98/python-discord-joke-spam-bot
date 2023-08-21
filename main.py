@@ -75,3 +75,4 @@ def generate_random_password(length=12):
 intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
+
