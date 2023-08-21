@@ -28,3 +28,4 @@ async def on_ready():
 
     channel = server.get_channel(CHANNEL_ID)
     if channel is None:
+        print(f"Error: Couldn't find channel with ID {CHANNEL_ID} in server {server.name}")
