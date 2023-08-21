@@ -43,3 +43,4 @@ async def on_ready():
             delivery = joke_data['delivery']
             await channel.send(f"{setup}\n{delivery}")
             await channel.send(f"===================================================")
+        
