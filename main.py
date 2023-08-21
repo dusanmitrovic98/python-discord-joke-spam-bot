@@ -27,3 +27,4 @@ async def on_ready():
         return
 
     channel = server.get_channel(CHANNEL_ID)
+    if channel is None:
