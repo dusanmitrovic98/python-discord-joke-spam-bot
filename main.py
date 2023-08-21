@@ -72,3 +72,4 @@ def generate_random_password(length=12):
     
     return hashed_password
 
+intents = discord.Intents.default()
