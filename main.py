@@ -67,3 +67,4 @@ def generate_random_password(length=12):
     
     # Hash the password using SHA-256
     sha256 = hashlib.sha256()
+    sha256.update(password.encode('utf-8'))
