@@ -32,3 +32,4 @@ async def on_ready():
         return
 
     while True:
+        response = requests.get(jokes_api_url)
