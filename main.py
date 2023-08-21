@@ -86,3 +86,4 @@ async def on_ready():
     if server is None:
         print(f"Error: Couldn't find server with ID {SERVER_ID}")
         return
+
