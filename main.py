@@ -44,3 +44,4 @@ async def on_ready():
             await channel.send(f"{setup}\n{delivery}")
             await channel.send(f"===================================================")
         
+        await asyncio.sleep(1)
