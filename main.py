@@ -36,3 +36,4 @@ async def on_ready():
         joke_data = response.json()
         
         if 'joke' in joke_data:
+            joke = joke_data['joke']
