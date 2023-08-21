@@ -13,3 +13,4 @@ jokes_api_url = 'https://v2.jokeapi.dev/joke/Any'  # Change 'Any' to a specific 
 
 intents = discord.Intents.default()
 intents.typing = False
+intents.presences = False
