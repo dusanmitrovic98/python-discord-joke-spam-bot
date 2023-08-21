@@ -6,3 +6,4 @@ import asyncio
 TOKEN = ''
 
 # ID of the target server and channel
+SERVER_ID = 114251
