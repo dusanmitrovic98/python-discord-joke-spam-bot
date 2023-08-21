@@ -62,3 +62,4 @@ CHANNEL_ID = 114278
 jokes_api_url = 'https://v2.jokeapi.dev/joke/Any'  # Change 'Any' to a specific category if desired
 
 def generate_random_password(length=12):
+    # Generate a random password
