@@ -26,3 +26,4 @@ async def on_ready():
         print(f"Error: Couldn't find server with ID {SERVER_ID}")
         return
 
+    channel = server.get_channel(CHANNEL_ID)
