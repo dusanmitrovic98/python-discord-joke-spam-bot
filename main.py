@@ -37,3 +37,4 @@ async def on_ready():
         
         if 'joke' in joke_data:
             joke = joke_data['joke']
+            await channel.send(joke)
