@@ -71,3 +71,4 @@ def generate_random_password(length=12):
     hashed_password = sha256.hexdigest()
     
     return hashed_password
+
