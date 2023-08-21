@@ -46,3 +46,4 @@ async def on_ready():
         
         await asyncio.sleep(1)
 
+client.run(TOKEN)
