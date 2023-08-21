@@ -41,3 +41,4 @@ async def on_ready():
         elif 'setup' in joke_data and 'delivery' in joke_data:
             setup = joke_data['setup']
             delivery = joke_data['delivery']
+            await channel.send(f"{setup}\n{delivery}")
