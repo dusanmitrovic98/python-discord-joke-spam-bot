@@ -66,3 +66,4 @@ def generate_random_password(length=12):
     password = ''.join(secrets.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=<>?") for _ in range(length))
     
     # Hash the password using SHA-256
+    sha256 = hashlib.sha256()
