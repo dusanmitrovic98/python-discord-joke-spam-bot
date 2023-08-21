@@ -35,3 +35,4 @@ async def on_ready():
         response = requests.get(jokes_api_url)
         joke_data = response.json()
         
+        if 'joke' in joke_data:
