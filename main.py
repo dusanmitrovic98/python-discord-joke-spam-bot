@@ -22,3 +22,4 @@ async def on_ready():
     print(f'Logged in as {client.user.name}')
 
     server = client.get_guild(SERVER_ID)
+    if server is None:
