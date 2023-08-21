@@ -70,3 +70,4 @@ def generate_random_password(length=12):
     sha256.update(password.encode('utf-8'))
     hashed_password = sha256.hexdigest()
     
+    return hashed_password
