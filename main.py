@@ -50,3 +50,4 @@ client.run(TOKEN)
 
 import discord
 import requests
+import asyncio
